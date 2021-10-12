@@ -1,0 +1,101 @@
+body{
+height: 100%;
+width: 100%;
+background-color: #ffffff;
+margin: 0 auto; /*tira a borda do site*/
+}
+
+ul{
+    padding: 0px!important;
+}
+
+.menuPrincipal{
+width: 100%;
+background-color: #252323;
+height: 60px;
+}
+
+main{
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+
+.logo{
+width: 70%;
+float: left;
+padding: 15px;
+}
+
+.redesSociais ul li{
+margin-left: 25px; /*espaço entre as logos*/
+display: inline-block; /* alinha os icones */
+float: left;
+}
+
+.redesSociais {
+width: 25%;
+float: right;
+}
+
+.header2{
+background-color: #ffffff;
+width: 980px;
+margin: 0 auto;
+padding: 16px;
+}
+
+.menuUrl{
+height: 80px;
+border-bottom: solid 3px #efefef;
+}
+
+.menu ul li{
+display: inline-block;
+color: #8b8b8b;
+margin-left: 15px;
+height: 50px;
+}
+.menu ul li:hover{
+border-bottom: 3px solid #00bac6 ;
+}
+
+.menu ul li a:hover{ /* hover é efeito quando passas o cursor do mouse*/
+color: #00bac6;
+
+}
+
+.menu ul li a{
+color: #8b8b8b;
+text-decoration: none; /*tira risquinho ___ de link*/
+font-size: 18px;
+text-transform: uppercase; /*deixa todas as letras maiusculas*/
+}
+
+.menu {
+float: left;
+width: 70%;
+}
+
+.busca{
+text-align: center;
+float: right;
+width: 30%;
+}
+
+.busca input{
+background-image: url('../img/search.png');
+background-repeat: no-repeat;
+background-position: 96%;
+height: 36px;
+width: 190px;
+padding-left: 10px;
+margin-top: 0px;
+border: solid 1px #d6d6d6;
+}
+
+.col100{
+float: left;
+width: 100%;
+position: relative;
+}
