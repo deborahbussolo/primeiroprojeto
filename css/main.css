@@ -6,7 +6,7 @@ margin: 0 auto; /*tira a borda do site*/
 }
 
 ul{
-    padding: 0px!important;
+padding: 0px!important;
 }
 
 .menuPrincipal{
@@ -29,7 +29,7 @@ padding: 15px;
 
 .redesSociais ul li{
 margin-left: 25px; /*espaço entre as logos*/
-display: inline-block; /* alinha os icones */
+display: inline-block; /* alinha, coloca um do lado do outro*/
 float: left;
 }
 
@@ -98,4 +98,61 @@ border: solid 1px #d6d6d6;
 float: left;
 width: 100%;
 position: relative;
+}
+
+button.slick-prev{
+font-size: 0px;
+border: none;
+z-index: 9; /*subir a camada*/
+height: 51px;
+width: 25px;
+position: absolute; /*absolute é quando o 'botão' não depende de nenhum outro elemento*/
+background-color: transparent;
+background-image: url(../img/anterior.png);
+top: 35%;
+left: 193px;
+}
+
+button.slick-next{
+font-size: 0px;
+border: none;
+z-index: 9; 
+height: 51px;
+width: 25px;
+position: absolute;
+background-color: transparent;
+background-image: url(../img/proximo.png);
+top: 35%;
+right: 193px;
+}
+
+.slick-initialized{
+overflow: hidden;
+}
+
+.slick-dots li button{
+font-size: 0px;
+height: 15px;
+width: 15px;
+background-color: transparent;
+border-radius: 50%;
+border: 3px solid #ffffff;
+cursor: pointer;
+}
+
+.slick-dots{
+margin: 0 auto;
+width: 50%;
+position: absolute;
+left: 50%;
+top: 600px;
+}
+
+.slick-dots li{
+    padding-left: 10px;
+display: inline-block;
+}
+
+li.slick-active button{
+background-color: #00bac6
 }
