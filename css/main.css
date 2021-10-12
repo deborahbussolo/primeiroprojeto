@@ -110,7 +110,7 @@ position: absolute; /*absolute é quando o 'botão' não depende de nenhum outro
 background-color: transparent;
 background-image: url(../img/anterior.png);
 top: 35%;
-left: 193px;
+left: 14%;
 }
 
 button.slick-next{
@@ -123,7 +123,7 @@ position: absolute;
 background-color: transparent;
 background-image: url(../img/proximo.png);
 top: 35%;
-right: 193px;
+right: 14%;
 }
 
 .slick-initialized{
@@ -144,7 +144,7 @@ cursor: pointer;
 margin: 0 auto;
 width: 50%;
 position: absolute;
-left: 50%;
+left: 47%;
 top: 600px;
 }
 
