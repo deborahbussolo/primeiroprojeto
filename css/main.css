@@ -30,7 +30,6 @@ padding: 15px;
 .redesSociais ul li{
 margin-left: 25px; /*espaço entre as logos*/
 display: inline-block; /* alinha, coloca um do lado do outro*/
-float: left;
 }
 
 .redesSociais {
