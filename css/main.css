@@ -182,9 +182,54 @@ float: left;
 position: relative;
 }
 
-.blocoText{
+.blocoTexto{
     margin-top: 3em;
 }
-h3{
+
+.blocoImagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.blocoImagem {
+    height: 280px;
+    width: 310px;
+    border: 1px solid #c5c5c5;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.blocoImagem b, p {
+    font-size: 14px;
+    color: #818181;
+    text-align: left;
+}
+.blocoTexto {
+    margin-top: 3em;
+}
+
+h3 {
     font-weight: normal!important;
+}
+
+.blocoImagensTexto {
+    background-color: #eeeeee;
+    display: inline-block;
+}
+.blocoImagensTexto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #ffffff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.blocoImagensTexto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
 }
