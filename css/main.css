@@ -15,7 +15,7 @@ background-color: #252323;
 height: 60px;
 }
 
-main{
+main, .content{
 margin: 0 auto;
 width: 980px;
 position: relative;
@@ -147,10 +147,44 @@ top: 600px;
 }
 
 .slick-dots li{
-    padding-left: 10px;
+padding-left: 10px;
 display: inline-block;
 }
 
 li.slick-active button{
 background-color: #00bac6
+}
+
+.textoDestaque {
+text-align: center ;
+}
+
+.textoDestaque h1{
+color: #818181;
+font-size: 30px;
+text-transform: uppercase;
+}
+
+.textoDestaque strong{
+color: #646464;
+}
+
+.textoDestaque p{
+color: #9a9a9a;
+font-size: 15px;
+}
+
+.col3{
+padding-left: 15px;
+padding-right: 15px;
+width: 29%;
+float: left;
+position: relative;
+}
+
+.blocoText{
+    margin-top: 3em;
+}
+h3{
+    font-weight: normal!important;
 }
