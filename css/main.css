@@ -187,60 +187,68 @@ padding-top: 55px;
 }
 
 .blocoTexto{
-    margin-top: 3em;
+margin-top: 3em;
 }
 
 .blocoImagem img {
-    margin: 0 auto;
-    width: 100%;
-    height: 180px;
+margin: 0 auto;
+width: 100%;
+height: 180px;
 }
 
 .blocoImagem {
-    height: 300px;
-    width: 310px;
-    border: 1px solid #c5c5c5;
-    padding-bottom: 15px;
-    margin-left: 10px;
-    display: inline-block;
+height: 300px;
+width: 310px;
+border: 1px solid #c5c5c5;
+padding-bottom: 15px;
+margin-left: 10px;
+display: inline-block;
 }
 
 .blocoImagem b, p {
-    font-size: 14px;
-    color: #818181;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
+font-size: 14px;
+color: #818181;
+text-align: left;
+padding-left: 20px;
+padding-right: 20px;
 }
 .blocoTexto {
-    margin-top: 3em;
+margin-top: 3em;
 }
 
 h3 {
-    font-weight: normal!important;
-    color: #7b7b7b;
+font-weight: normal!important;
+color: #7b7b7b;
 }
 
 .blocoImagensTexto {
-    background-color: #eeeeee;
-    display: inline-block;
+background-color: #eeeeee;
+display: inline-block;
 }
 
 .blocoImagensTexto:before {
-    width: 100%;
-    display: inline-block;
-    content: '';
-    height: 52px;
-    background: #ffffff;
-    background-image: url('../img/setinha.png');
-    background-repeat: no-repeat;
-    background-position: center;
+width: 100%;
+display: inline-block;
+content: '';
+height: 52px;
+background: #ffffff;
+background-image: url('../img/setinhas.png');
+background-repeat: no-repeat;
+background-position: center;
 }
 
 .blocoImagensTexto:after {
-    width: 100%;
-    display: inline-block;
-    content: '';
-    height: 70px;
-    background: #eeeeee;
+width: 100%;
+display: inline-block;
+content: '';
+height: 70px;
+background: #eeeeee;
+}
+.col4{
+display: inline-block;
+margin-left: 55px;
+}
+
+.col4 img{
+margin: 0 auto;
 }
