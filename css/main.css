@@ -31,6 +31,9 @@ padding: 15px;
 margin-left: 25px; /*espaço entre as logos*/
 display: inline-block; /* alinha, coloca um do lado do outro*/
 }
+.redesSociais ul li img{
+cursor: pointer;
+}
 
 .redesSociais {
 width: 25%;
@@ -194,6 +197,7 @@ margin-top: 3em;
 margin: 0 auto;
 width: 100%;
 height: 180px;
+cursor: pointer;
 }
 
 .blocoImagem {
@@ -246,9 +250,12 @@ background: #eeeeee;
 }
 .col4{
 display: inline-block;
-margin-left: 55px;
+margin-left: 65px;
 }
 
 .col4 img{
+cursor: pointer;
 margin: 0 auto;
+border-top: 1em;
+vertical-align: middle;
 }
