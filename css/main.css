@@ -296,13 +296,13 @@ color: #898989 !important;
 }
 
 .local::before, .mensagem::before, .telefone::before, .clock::before{
-    content: '';
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    padding-left: 5px;
-    display: inline-block;
-    background-repeat: no-repeat;
+content: '';
+width: 20px;
+height: 20px;
+vertical-align: middle;
+padding-left: 5px;
+display: inline-block;
+background-repeat: no-repeat;
 }
 
 .footer2 p{
