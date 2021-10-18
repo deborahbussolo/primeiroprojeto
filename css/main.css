@@ -267,6 +267,12 @@ background-image: url(../img/footer.png);
 color: #ffffff;
 }
 
+.footer2{
+background-image: url(../img/footer2.png);
+height: 80px;
+color: #ffffff;
+}
+
 .footer p{
 color: #c1c1c1;
 text-align: left;
@@ -289,12 +295,50 @@ color: #ffffff;
 color: #898989 !important;
 }
 
+.local::before, .mensagem::before, .telefone::before, .clock::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding-left: 5px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.footer2 p{
+padding-top: 10px;
+}
+
 .clock::before{
-content: '';
-width: 15px;
-height: 15px;
-padding-left: 5px;
-display: inline-block;
 background-image: url(../img/clock.png);
-background-repeat: no-repeat;
+}
+
+.local::before{
+background-image: url(../img/localização.png);
+}
+
+.mensagem::before{
+background-image: url(../img/envelope.png);
+}
+
+.telefone::before{
+background-image: url(../img/telefone.png);
+}
+
+.footer2 p{
+width: 60%;
+}
+.redesSociais2 ul li{
+margin-left: 25px;
+display: inline-block;
+}
+
+.redesSociais2 ul li img{
+cursor: pointer;
+vertical-align: middle;
+}
+    
+.redesSociais2 {
+width: 25%;
+float: right;
 }
