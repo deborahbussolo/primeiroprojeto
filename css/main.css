@@ -207,15 +207,16 @@ border: 1px solid #c5c5c5;
 padding-bottom: 15px;
 margin-left: 10px;
 display: inline-block;
+color: #818181;
+font-size: 14px;
 }
 
-.blocoImagem b, p {
-font-size: 14px;
-color: #818181;
+.blocoImagem p{
 text-align: left;
 padding-left: 20px;
 padding-right: 20px;
 }
+
 .blocoTexto {
 margin-top: 3em;
 }
@@ -249,13 +250,51 @@ height: 70px;
 background: #eeeeee;
 }
 .col4{
+float: left;
+width: 25%;
+text-align: center;
 display: inline-block;
-margin-left: 65px;
 }
 
 .col4 img{
 cursor: pointer;
-margin: 0 auto;
 border-top: 1em;
 vertical-align: middle;
+}
+
+.footer{
+background-image: url(../img/footer.png);
+color: #ffffff;
+}
+
+.footer p{
+color: #c1c1c1;
+text-align: left;
+padding-right: 20px;
+padding-left: 5px;
+}
+
+.footer b{
+font-size: 20px;
+color: #ffffff;
+}
+
+.footer h3{
+text-align: left;
+font-size: 22px;
+color: #ffffff;
+}
+
+.clock{
+color: #898989 !important;
+}
+
+.clock::before{
+content: '';
+width: 15px;
+height: 15px;
+padding-left: 5px;
+display: inline-block;
+background-image: url(../img/clock.png);
+background-repeat: no-repeat;
 }
