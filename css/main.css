@@ -249,27 +249,32 @@ content: '';
 height: 70px;
 background: #eeeeee;
 }
+
+.blocoLogo img{
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+.blocoLogo img:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+  }
+
 .col4{
 float: left;
 width: 25%;
 text-align: center;
-display: inline-block;
 }
 
 .col4 img{
 cursor: pointer;
 border-top: 1em;
 vertical-align: middle;
+padding-bottom: 40px;
 }
 
 .footer{
 background-image: url(../img/footer.png);
-color: #ffffff;
-}
-
-.footer2{
-background-image: url(../img/footer2.png);
-height: 80px;
 color: #ffffff;
 }
 
@@ -305,10 +310,6 @@ display: inline-block;
 background-repeat: no-repeat;
 }
 
-.footer2 p{
-padding-top: 10px;
-}
-
 .clock::before{
 background-image: url(../img/clock.png);
 }
@@ -325,8 +326,23 @@ background-image: url(../img/envelope.png);
 background-image: url(../img/telefone.png);
 }
 
-.footer2 p{
-width: 60%;
+.footerFixo{
+background-image: url(../img/footer2.png);
+height: 80px;
+color: #ffffff;
+bottom: 0;
+width: 100%;
+text-align: center
+    }
+
+.footerFixo p{
+width: 70%;
+padding-top: 15px;
+float: left;
+text-align: left;
+}
+.tamanho{
+width: 980px;
 }
 .redesSociais2 ul li{
 margin-left: 25px;
@@ -339,6 +355,7 @@ vertical-align: middle;
 }
     
 .redesSociais2 {
-width: 25%;
-float: right;
+    width: 20%;
+    float: left;
+    padding-top: 10px;
 }
